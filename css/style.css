@@ -227,3 +227,69 @@ footer a:hover {
   color: #1abc9c; 
   transform: scale(1.1);
 }
+
+
+
+/* 태블릿 (1024px 이하) */
+@media (max-width: 1024px) {
+  section,
+  .works-section {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .about-skills__container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .header__menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .home__title {
+    font-size: 1.5rem;
+  }
+
+  .skill__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* 모바일 (768px 이하) */
+@media (max-width: 768px) {
+  .header__logo__title {
+    font-size: 1.2rem;
+  }
+
+  .home__title {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .home__description {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .about__list,
+  .skill__list {
+    padding: 0;
+    text-align: center;
+  }
+
+  .work__list {
+    margin-bottom: 30px;
+  }
+
+  footer .title {
+    font-size: 1.4rem;
+  }
+
+  footer a {
+    font-size: 1rem;
+  }
+}
